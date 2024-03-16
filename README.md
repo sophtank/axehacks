@@ -13,7 +13,8 @@ Data visualization was done via Tableau, and the website was created with a comb
 # Installation
 ** Please ensure that your Python distribution is up to date **
 
-```git clone https://github.com/sophtank/melometrics.git
+```
+git clone https://github.com/sophtank/melometrics.git
 cd melometrics
 python -m venv venv
 source venv/bin/activate
