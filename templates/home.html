@@ -1,45 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <!-- Add your CSS files here -->
-    <!-- <link rel="stylesheet" href="styles.css"> -->
-</head>
-<body>
-    <header>
-        <h1>Welcome to our homepage!</h1>
-    </header>
-
-    <nav>
-        <!-- Add your navigation links here -->
-        <a href="#section1">Section 1</a>
-        <a href="#section2">Section 2</a>
-    </nav>
-
-    <main>
-        <section id="section1">
-            <h2>Section 1</h2>
-            <p>This is the first section of your homepage.</p>
-        </section>
-
-        <section id="section2">
-            <h2>Section 2</h2>
-            <p>This is the second section of your homepage.</p>
-        </section>
-    </main>
-
-    <footer>
-        <!-- Add your footer content here -->
-        <p>Copyright &copy; 2022. All rights reserved.</p>
-    </footer>
-</body>
-</html>
-<!-- Add Bootstrap CSS -->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-
-<!-- Add Bootstrap JS and its dependencies -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+{% extends "layout.html" %}
+{%block title%} MeloMetrics {%endblock%}
+{% block content%}
+    <h1>Home</h1>
+    <h3>Plans</h3>
+    <p>Originally, we wanted to look at datasets and compare Apple Music usage with Spotify usage. However, we were not able to access Apple Music data and had to change ideas.</p>
+    <p>We split into two groups -- three people would create Tableau visualizations of data that we sourced through Kaggle, and two people would work on the website.</p>
+    <p>Our goals by the end of the hackathon were to:</p>
+    <ol>
+        <li>Compare and contrast music trends from the early 2000s to modern day.</li>
+        <li>Create a a line graph representing growth of Spotify users over timeline of data gathered.</li>
+        <li>Create a website to show our visualizations.</li>
+        <li>Record a short video showcasing our final product.</li>
+        <li>Reflect on cultural changes since 2000.</li>
+      </ol>
+    <h3>Achievements</h3>
+    <p>During the twelve hours given to us, our team was able to achieve all five of our goals. This was very exciting as it was everyone's first time completing a hackathon.</p>
+    
+{% endblock %}
