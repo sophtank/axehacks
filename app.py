@@ -24,3 +24,7 @@ def year2010():
 @app.get('/all')
 def year2024():
     return render_template('all.html')
+
+@app.get('/vid')
+def vid():
+    return render_template('vid.html')
